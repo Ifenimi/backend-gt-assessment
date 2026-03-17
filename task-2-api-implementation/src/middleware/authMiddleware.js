@@ -1,0 +1,12 @@
+const authMiddleware = (req, res, next) => {
+  const userId = parseInt(req.header("x-user-id"));
+
+  if (!userId) {
+    return res.status(401).json({ message: "Unauthorized" });
+  }
+
+  req.userId = userId;
+  next();
+};
+
+export default authMiddleware;
