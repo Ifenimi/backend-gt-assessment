@@ -13,12 +13,6 @@ This project is a simple Task Management API built with Node.js and Express. It 
 
 npm install
 
-npm init -y
-
-npm install express
-
-npm install nodemon
-
 # How to Run the Project
 
 Start the development server:
