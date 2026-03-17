@@ -80,9 +80,11 @@ json
 }
 
 5. Unassign Task (Assigner Only)
+
    PATCH /tasks/:id/unassign
 
 6. Delete Task (Assigner Only)
+
    DELETE /tasks/:id
 
 # Example Request (Postman)
