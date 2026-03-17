@@ -6,6 +6,7 @@ This project is a simple Task Management API built with Node.js and Express. It 
 
 1. Clone the repository:
    git clone https://github.com/Ifenimi/backend-gt-assessment
+
    cd backend-gt-assessment/task-2-api-implementation
 
 2. Install dependencies:
